@@ -3,6 +3,9 @@ import RemoveBtn from "./removebtn";
 import Link from "next/link";
 import { HiPencilAlt } from "react-icons/hi";
 
+
+
+
 export default function TopicList() {
   return ( 
     <>
@@ -13,7 +16,7 @@ export default function TopicList() {
         </div>
         <div className="flex gap-2">
             <RemoveBtn/>
-            <Link className="text-blue-800 cursor-pointer" href="/edittopic"> <HiPencilAlt size={25}/> </Link>
+            <Link className="text-blue-800 cursor-pointer" href="/edittopic/anishsaini"> <HiPencilAlt size={25}/> </Link>
         </div>
       </div>
     </>
